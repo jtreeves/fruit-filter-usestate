@@ -20,7 +20,7 @@ function FruitContainer(props) {
         const filteredValue = event.target.value
         // Remove the fruits that don't contain the filter value
         const filteredFruitList = props.fruits.filter(fruit => {
-            return fruit.toLowerCase().includes(filterValue.toLowerCase())
+            return fruit.toLowerCase().includes(filteredValue.toLowerCase())
         })
         // Reset states
         setFruitsToDisplay(filteredFruitList)
