@@ -28,10 +28,10 @@ function FruitContainer(props) {
     }
     
     // Log the states and props, as they adjust based on different filter queries
-    // console.log('---- state ----')
-    // console.log(this.state.fruitsToDisplay)
-    // console.log('---- props ----')
-    // console.log(this.props.fruits)
+    console.log('---- state ----')
+    console.log(fruitsToDisplay)
+    console.log('---- props ----')
+    console.log(props.fruits)
 
     // Return this info to the page
     return(
