@@ -1,3 +1,6 @@
+// Import useState
+import React, { useState } from 'react'
+
 // Import other components
 import Input from './Input'
 import List from './List'
@@ -25,10 +28,10 @@ function FruitContainer(props) {
     }
     
     // Log the states and props, as they adjust based on different filter queries
-    console.log('---- state ----')
-    console.log(this.state.fruitsToDisplay)
-    console.log('---- props ----')
-    console.log(this.props.fruits)
+    // console.log('---- state ----')
+    // console.log(this.state.fruitsToDisplay)
+    // console.log('---- props ----')
+    // console.log(this.props.fruits)
 
     // Return this info to the page
     return(
