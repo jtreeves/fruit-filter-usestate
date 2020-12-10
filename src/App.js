@@ -1,4 +1,4 @@
-// Import React's Component
+// Import React's CSS
 import './App.css'
 
 // Import main component

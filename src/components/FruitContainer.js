@@ -1,12 +1,13 @@
-// Import React's Component
-import React, { Component } from 'react'
-
 // Import other components
 import Input from './Input'
 import List from './List'
 
-// Create class for component
-class FruitContainer extends Component {
+// Create function for component
+function FruitContainer(props) {
+    
+    
+    
+    
     // Create constructor
     constructor(props) {
         super()
@@ -31,8 +32,7 @@ class FruitContainer extends Component {
         this.setState({ fruitsToDisplay: filteredFruitList, filterValue })
     }
     
-    // Render page
-    render() {
+    
         // Log the states and props, as they adjust based on different filter queries
         console.log('---- state ----')
         console.log(this.state.fruitsToDisplay)
@@ -58,7 +58,6 @@ class FruitContainer extends Component {
                 </ul>
             </div>
         )
-    }
 }
 
 // Export component
